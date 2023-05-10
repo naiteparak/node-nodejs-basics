@@ -1,5 +1,6 @@
 const parseEnv = () => {
-    // Write your code here 
+    console.log(process.env)
+    console.log(Object.keys(process.env))
 };
 
 parseEnv();
